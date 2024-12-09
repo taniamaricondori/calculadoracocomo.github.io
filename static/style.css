@@ -1,0 +1,79 @@
+/* Estilado General para el fondo con degradado */
+body {
+    background: linear-gradient(to right, #00C6FF, #5EEFF7);
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Estilado para el recuadro de título */
+.recuadro-titulo {
+    background: linear-gradient(to right, #004994, #00BFAE);
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+
+/* Contenedor Principal */
+.container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+/* Estilado para el recuadro del formulario */
+.form-container {
+    background: linear-gradient(to bottom, #A9DEF9, #5EEFF7, #00BFAE);
+    border: 2px solid #004994;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    color: #333;
+    transition: transform 0.2s ease;
+}
+
+.form-container:hover {
+    transform: translateY(-5px);
+}
+
+/* Nuevo estilo para el recuadro de resultados */
+.recuadro-resultados {
+    background: linear-gradient(to bottom, #5EEFF7, #00C6FF);
+    border: 2px solid #004994;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    color: #fff;
+    margin: 10px 0;
+}
+
+/* Botón de envío */
+.btn-primary {
+    background: #0056b3;
+    border: none;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: #004494;
+}
+
+/* Mensajes de error */
+.alert {
+    background-color: #ffdddd;
+    color: #d8000c;
+    border: none;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
